@@ -4,7 +4,9 @@ options(repos=structure(c(CRAN = "http://cran.r-project.org")))
 install_package <- function(package){
   if (grepl("/", package)){
     # github install
-    status <- try(devtools::install_github("computationales/rsofun", quiet = TRUE))
+    status <- try(
+      devtools::install_github("computationales/rsofun", quiet = TRUE)
+      )
   } else {
     # normal install
     status <- try(install.packages(package, quiet = TRUE))

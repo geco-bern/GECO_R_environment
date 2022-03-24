@@ -27,7 +27,7 @@ module load hdf5/1.10.1
 module load netcdf/4.4.1 
 module load nco/4.6.7
 module load cmake
-module load r
+module load r/4.0.2 # use just r for the latest version (might not work)
 module load tmux
 module load eth_proxy
 module load libsodium/1.0.15
