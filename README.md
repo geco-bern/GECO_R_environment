@@ -1,6 +1,12 @@
 # CES R environment
 
-This is a simple R script to be executed in an R session using:
+To use this simple R script clone the repository:
+
+```bash
+git clone https://github.com/computationales/CES_R_environment.git
+```
+
+Open an R session (either in RStudio or a console) and source the script:
 
 ```r
 source("install_CES_environment.R")
