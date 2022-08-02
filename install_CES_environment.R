@@ -5,7 +5,7 @@ install_package <- function(package){
   if (grepl("/", package)){
     # github install
     status <- try(
-      devtools::install_github("computationales/rsofun", quiet = TRUE)
+      devtools::install_github(package, quiet = TRUE)
       )
   } else {
     # normal install
