@@ -21,7 +21,7 @@ install_package <- function(package){
 
 message(
   "
-  This routine installs all CES related packages, however
+  This routine installs all GECO related packages, however
   it does not take care of potential dependencies outside
   the R ecocystem. For example GDAL will need to be installed
   on the system.
@@ -104,8 +104,8 @@ pkgs <- c(
 
 invisible(lapply(pkgs, install_package))
 
-#---- ecophys modelling CES ----
-message("- Installing CES packages")
+#---- ecophys modelling GECO ----
+message("- Installing GECO packages")
 
 pkgs <- c(
   "hwsdr",
