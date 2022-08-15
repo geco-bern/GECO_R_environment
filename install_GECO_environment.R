@@ -32,6 +32,25 @@ message(
   "
   )
 
+#---- development ----
+message("- Installing development tools")
+
+pkgs <- c(
+  "utils",
+  "devtools",
+  "goodpractice",
+  "pkgdown",
+  "bookdown",
+  "lintr",
+  "covr",
+  "rmarkdown",
+  "knitr",
+  "testthat",
+  "usethis"
+  )
+
+invisible(lapply(pkgs, install_package))
+
 #---- data wrangling and plotting -----
 message("- Installing data science tools")
 
@@ -60,25 +79,6 @@ pkgs <- c(
   "ecmwfr",
   "ncdf4",
   "gdalUtils"
-  )
-
-invisible(lapply(pkgs, install_package))
-
-#---- development ----
-message("- Installing development tools")
-
-pkgs <- c(
-  "utils",
-  "devtools",
-  "goodpractice",
-  "pkgdown",
-  "bookdown",
-  "lintr",
-  "covr",
-  "rmarkdown",
-  "knitr",
-  "testthat",
-  "usethis"
   )
 
 invisible(lapply(pkgs, install_package))
