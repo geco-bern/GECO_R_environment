@@ -109,8 +109,14 @@ message("- Installing GECO specific packages")
 
 pkgs <- c(
   "hwsdr",
+  "signal",
   "rpmodel",
-  "climate",
+  "ggthemes",
+  "LSD",
+  "yardstick",
+  "virids",
+  "scico",
+  "bczernecki/climate",
   "computationales/rsofun" # use the github paths, this works!!
 )
 
