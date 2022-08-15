@@ -105,14 +105,13 @@ pkgs <- c(
 invisible(lapply(pkgs, install_package))
 
 #---- ecophys modelling GECO ----
-message("- Installing GECO packages")
+message("- Installing GECO specific packages")
 
 pkgs <- c(
   "hwsdr",
   "rpmodel",
   "climate",
-  "computationales/rsofun", # use the github paths, this works!!
-  "computationales/ingestr"
+  "computationales/rsofun" # use the github paths, this works!!
 )
 
 invisible(lapply(pkgs, install_package))
