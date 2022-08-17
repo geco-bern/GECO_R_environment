@@ -6,10 +6,10 @@ To use this simple R script clone the repository:
 git clone https://github.com/computationales/GECO_R_environment.git
 ```
 
-Open an R session (either in RStudio or a console) and source the script:
+In a terminal run the install script:
 
 ```r
-source("install_GECO_environment.R")
+Rscript -e "install_GECO_environment.R"
 ```
 
 This script will install all required libraries and or github hosted packages to support local and cloud computing work. This script should be run after cluster or local updates of R (version increments) or when you install a new computer yourself.
