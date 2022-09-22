@@ -117,6 +117,7 @@ pkgs <- c(
   "virids",
   "scico",
   "bczernecki/climate",
+  "computationales/GECO_template",
   "computationales/rsofun" # use the github paths, this works!!
 )
 
