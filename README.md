@@ -3,7 +3,7 @@
 To use this simple R script clone the repository:
 
 ```bash
-git clone https://github.com/computationales/GECO_R_environment.git
+git clone https://github.com/geco-bern/GECO_R_environment.git
 ```
 
 In a terminal run the install script:
